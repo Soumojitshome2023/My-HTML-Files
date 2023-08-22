@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Video</title>
+</head>
+<body>
+    <div>
+        <video src="21_02_video.mp4" width="223px"></video>
+        <!-- no control on video, video does not play  -->
+    </div>
+    <hr>
+    <div>
+        <video src="21_02_video.mp4"autoplay width="223px"></video>
+        <!-- auto play the video, no stop start or control  -->
+    </div>
+    <hr>
+    <div>
+        <video src="21_02_video.mp4" controls width="223px"></video>
+        <!-- Now Control is avaible, but not auto play  -->
+        
+    </div>
+    <hr>
+    <div>
+        <video src="21_02_video.mp4" controls autoplay width="223px"></video>
+        <!-- Now Control and auto play is avaible, but not in loop  -->
+        
+    </div>
+    <hr>
+    <div>
+        <video src="21_02_video.mp4" controls autoplay loop width="223px"></video>
+        <!-- Now Control,auto play and loop is avaible, but not mute  -->
+        
+    </div>
+    <hr>
+    <div>
+        <video src="21_02_video.mp4" controls autoplay loop muted width="223px"></video>
+        <!-- Now Control,auto play and loop is avaible, and video is muted  -->
+
+    </div>
+    <hr>
+    <div>
+        <video src="21_02_video.mp4" controls loop muted poster="21_03_poster.jpg" width="223px"></video>
+        <!-- poster use for video thumbnail  -->
+
+    </div>
+</body>
+</html>
